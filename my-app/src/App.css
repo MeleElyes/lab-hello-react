@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #282c34;
+  height: 100%;
+  margin: 20px;
+  align-items: left;
+  color: white;
+}
+
+.App button{
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Encart{
+  margin-left: 50px;
+}
+
+.App h1{
+  font-size: 70px;
+  margin-right: 55%;
+}
+
+.Nav{
+  width: 95%;
+}
+
+.Nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Nav li li{
+  width: fit-content;
+  height: fit-content;
+}
+
+.Img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 90px;
+}
+
+
+
+/* .Icone{
+  display: flex;
+  flex-direction: column;
+} */
